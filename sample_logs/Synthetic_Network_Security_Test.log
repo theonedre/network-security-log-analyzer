@@ -1,0 +1,120 @@
+2026-10-24T08:00:00 INFO SW-LAB-01 event_id=LAB-0001 interface Gi1/0/1 up; link established speed=1000Mbps
+2026-10-24T08:00:15 INFO FW-LAB-01 event_id=LAB-0002 connection allowed src=10.10.10.25 dst=192.0.2.10 dst_port=443 protocol=TCP
+2026-10-24T08:00:30 WARNING AUTH-LAB-01 event_id=LAB-0003 failed login user=admin src=198.51.100.25 reason=invalid_password
+2026-10-24T08:00:45 WARNING FW-LAB-01 event_id=LAB-0004 connection denied src=203.0.113.45 dst=10.10.10.20 dst_port=3389 protocol=TCP
+2026-10-24T08:01:00 ERROR SW-LAB-01 event_id=LAB-0005 interface down port=Gi1/0/8 reason=link_failure
+2026-10-24T08:01:15 WARNING AUTH-LAB-01 event_id=LAB-0006 authentication failure user=backupsvc src=10.10.10.50 reason=expired_password
+2026-10-24T08:01:30 INFO AUTH-LAB-01 event_id=LAB-0007 login successful user=analyst src=10.10.10.25
+2026-10-24T08:01:45 CRITICAL IDS-LAB-01 event_id=LAB-0008 port scan detected src=203.0.113.45 dst=10.10.10.20 ports=22,80,443,3389
+2026-10-24T08:02:00 WARNING SW-LAB-01 event_id=LAB-0009 high CPU utilization value=91 percent
+2026-10-24T08:02:15 INFO DNS-LAB-01 event_id=LAB-0010 DNS query resolved client=10.10.10.25 name=portal.example.com address=192.0.2.10
+2026-10-24T08:02:30 ERROR VPN-LAB-01 event_id=LAB-0011 VPN connection timeout user=remoteuser src=198.51.100.70
+2026-10-24T08:02:45 INFO BACKUP-LAB-01 event_id=LAB-0012 backup completed status=success duration_seconds=120
+2026-10-24T08:03:00 WARNING AUTH-LAB-01 event_id=LAB-0013 FAILED LOGIN user=testuser src=198.51.100.30 reason=invalid_password
+2026-10-24T08:03:15 INFO SW-LAB-01 event_id=LAB-0014 configuration changed user=netadmin src=10.10.10.25 ticket=LAB-1042
+2026-10-24T08:03:30 WARNING IDS-LAB-01 event_id=LAB-0015 repeated failed login attempts src=198.51.100.25 count=5 window_seconds=60
+2026-10-24T08:03:45 INFO FW-LAB-01 event_id=LAB-0016 connection denied counter reset by administrator; no new blocked traffic
+2026-10-24T08:04:00 ERROR APP-LAB-01 event_id=LAB-0017 disk space low volume=D free_percent=8
+2026-10-24T08:04:15 INFO NTP-LAB-01 event_id=LAB-0018 time synchronization successful server=10.10.10.5
+2026-10-24T08:04:30 WARNING SW-LAB-01 event_id=LAB-0019 interface Gi1/0/8 flapping transitions=6 window_seconds=120
+2026-10-24T08:04:45 INFO MON-LAB-01 event_id=LAB-0020 health check passed status=normal
+2026-10-24T08:05:00 INFO SW-LAB-01 event_id=LAB-0021 interface Gi1/0/1 up; link established speed=1000Mbps
+2026-10-24T08:05:15 INFO FW-LAB-01 event_id=LAB-0022 connection allowed src=10.10.10.25 dst=192.0.2.10 dst_port=443 protocol=TCP
+2026-10-24T08:05:30 WARNING AUTH-LAB-01 event_id=LAB-0023 failed login user=admin src=198.51.100.25 reason=invalid_password
+2026-10-24T08:05:45 WARNING FW-LAB-01 event_id=LAB-0024 connection denied src=203.0.113.45 dst=10.10.10.20 dst_port=3389 protocol=TCP
+2026-10-24T08:06:00 ERROR SW-LAB-01 event_id=LAB-0025 interface down port=Gi1/0/8 reason=link_failure
+2026-10-24T08:06:15 WARNING AUTH-LAB-01 event_id=LAB-0026 authentication failure user=backupsvc src=10.10.10.50 reason=expired_password
+2026-10-24T08:06:30 INFO AUTH-LAB-01 event_id=LAB-0027 login successful user=analyst src=10.10.10.25
+2026-10-24T08:06:45 CRITICAL IDS-LAB-01 event_id=LAB-0028 port scan detected src=203.0.113.45 dst=10.10.10.20 ports=22,80,443,3389
+2026-10-24T08:07:00 WARNING SW-LAB-01 event_id=LAB-0029 high CPU utilization value=91 percent
+2026-10-24T08:07:15 INFO DNS-LAB-01 event_id=LAB-0030 DNS query resolved client=10.10.10.25 name=portal.example.com address=192.0.2.10
+2026-10-24T08:07:30 ERROR VPN-LAB-01 event_id=LAB-0031 VPN connection timeout user=remoteuser src=198.51.100.70
+2026-10-24T08:07:45 INFO BACKUP-LAB-01 event_id=LAB-0032 backup completed status=success duration_seconds=120
+2026-10-24T08:08:00 WARNING AUTH-LAB-01 event_id=LAB-0033 FAILED LOGIN user=testuser src=198.51.100.30 reason=invalid_password
+2026-10-24T08:08:15 INFO SW-LAB-01 event_id=LAB-0034 configuration changed user=netadmin src=10.10.10.25 ticket=LAB-1042
+2026-10-24T08:08:30 WARNING IDS-LAB-01 event_id=LAB-0035 repeated failed login attempts src=198.51.100.25 count=5 window_seconds=60
+2026-10-24T08:08:45 INFO FW-LAB-01 event_id=LAB-0036 connection denied counter reset by administrator; no new blocked traffic
+2026-10-24T08:09:00 ERROR APP-LAB-01 event_id=LAB-0037 disk space low volume=D free_percent=8
+2026-10-24T08:09:15 INFO NTP-LAB-01 event_id=LAB-0038 time synchronization successful server=10.10.10.5
+2026-10-24T08:09:30 WARNING SW-LAB-01 event_id=LAB-0039 interface Gi1/0/8 flapping transitions=6 window_seconds=120
+2026-10-24T08:09:45 INFO MON-LAB-01 event_id=LAB-0040 health check passed status=normal
+2026-10-24T08:10:00 INFO SW-LAB-01 event_id=LAB-0041 interface Gi1/0/1 up; link established speed=1000Mbps
+2026-10-24T08:10:15 INFO FW-LAB-01 event_id=LAB-0042 connection allowed src=10.10.10.25 dst=192.0.2.10 dst_port=443 protocol=TCP
+2026-10-24T08:10:30 WARNING AUTH-LAB-01 event_id=LAB-0043 failed login user=admin src=198.51.100.25 reason=invalid_password
+2026-10-24T08:10:45 WARNING FW-LAB-01 event_id=LAB-0044 connection denied src=203.0.113.45 dst=10.10.10.20 dst_port=3389 protocol=TCP
+2026-10-24T08:11:00 ERROR SW-LAB-01 event_id=LAB-0045 interface down port=Gi1/0/8 reason=link_failure
+2026-10-24T08:11:15 WARNING AUTH-LAB-01 event_id=LAB-0046 authentication failure user=backupsvc src=10.10.10.50 reason=expired_password
+2026-10-24T08:11:30 INFO AUTH-LAB-01 event_id=LAB-0047 login successful user=analyst src=10.10.10.25
+2026-10-24T08:11:45 CRITICAL IDS-LAB-01 event_id=LAB-0048 port scan detected src=203.0.113.45 dst=10.10.10.20 ports=22,80,443,3389
+2026-10-24T08:12:00 WARNING SW-LAB-01 event_id=LAB-0049 high CPU utilization value=91 percent
+2026-10-24T08:12:15 INFO DNS-LAB-01 event_id=LAB-0050 DNS query resolved client=10.10.10.25 name=portal.example.com address=192.0.2.10
+2026-10-24T08:12:30 ERROR VPN-LAB-01 event_id=LAB-0051 VPN connection timeout user=remoteuser src=198.51.100.70
+2026-10-24T08:12:45 INFO BACKUP-LAB-01 event_id=LAB-0052 backup completed status=success duration_seconds=120
+2026-10-24T08:13:00 WARNING AUTH-LAB-01 event_id=LAB-0053 FAILED LOGIN user=testuser src=198.51.100.30 reason=invalid_password
+2026-10-24T08:13:15 INFO SW-LAB-01 event_id=LAB-0054 configuration changed user=netadmin src=10.10.10.25 ticket=LAB-1042
+2026-10-24T08:13:30 WARNING IDS-LAB-01 event_id=LAB-0055 repeated failed login attempts src=198.51.100.25 count=5 window_seconds=60
+2026-10-24T08:13:45 INFO FW-LAB-01 event_id=LAB-0056 connection denied counter reset by administrator; no new blocked traffic
+2026-10-24T08:14:00 ERROR APP-LAB-01 event_id=LAB-0057 disk space low volume=D free_percent=8
+2026-10-24T08:14:15 INFO NTP-LAB-01 event_id=LAB-0058 time synchronization successful server=10.10.10.5
+2026-10-24T08:14:30 WARNING SW-LAB-01 event_id=LAB-0059 interface Gi1/0/8 flapping transitions=6 window_seconds=120
+2026-10-24T08:14:45 INFO MON-LAB-01 event_id=LAB-0060 health check passed status=normal
+2026-10-24T08:15:00 INFO SW-LAB-01 event_id=LAB-0061 interface Gi1/0/1 up; link established speed=1000Mbps
+2026-10-24T08:15:15 INFO FW-LAB-01 event_id=LAB-0062 connection allowed src=10.10.10.25 dst=192.0.2.10 dst_port=443 protocol=TCP
+2026-10-24T08:15:30 WARNING AUTH-LAB-01 event_id=LAB-0063 failed login user=admin src=198.51.100.25 reason=invalid_password
+2026-10-24T08:15:45 WARNING FW-LAB-01 event_id=LAB-0064 connection denied src=203.0.113.45 dst=10.10.10.20 dst_port=3389 protocol=TCP
+2026-10-24T08:16:00 ERROR SW-LAB-01 event_id=LAB-0065 interface down port=Gi1/0/8 reason=link_failure
+2026-10-24T08:16:15 WARNING AUTH-LAB-01 event_id=LAB-0066 authentication failure user=backupsvc src=10.10.10.50 reason=expired_password
+2026-10-24T08:16:30 INFO AUTH-LAB-01 event_id=LAB-0067 login successful user=analyst src=10.10.10.25
+2026-10-24T08:16:45 CRITICAL IDS-LAB-01 event_id=LAB-0068 port scan detected src=203.0.113.45 dst=10.10.10.20 ports=22,80,443,3389
+2026-10-24T08:17:00 WARNING SW-LAB-01 event_id=LAB-0069 high CPU utilization value=91 percent
+2026-10-24T08:17:15 INFO DNS-LAB-01 event_id=LAB-0070 DNS query resolved client=10.10.10.25 name=portal.example.com address=192.0.2.10
+2026-10-24T08:17:30 ERROR VPN-LAB-01 event_id=LAB-0071 VPN connection timeout user=remoteuser src=198.51.100.70
+2026-10-24T08:17:45 INFO BACKUP-LAB-01 event_id=LAB-0072 backup completed status=success duration_seconds=120
+2026-10-24T08:18:00 WARNING AUTH-LAB-01 event_id=LAB-0073 FAILED LOGIN user=testuser src=198.51.100.30 reason=invalid_password
+2026-10-24T08:18:15 INFO SW-LAB-01 event_id=LAB-0074 configuration changed user=netadmin src=10.10.10.25 ticket=LAB-1042
+2026-10-24T08:18:30 WARNING IDS-LAB-01 event_id=LAB-0075 repeated failed login attempts src=198.51.100.25 count=5 window_seconds=60
+2026-10-24T08:18:45 INFO FW-LAB-01 event_id=LAB-0076 connection denied counter reset by administrator; no new blocked traffic
+2026-10-24T08:19:00 ERROR APP-LAB-01 event_id=LAB-0077 disk space low volume=D free_percent=8
+2026-10-24T08:19:15 INFO NTP-LAB-01 event_id=LAB-0078 time synchronization successful server=10.10.10.5
+2026-10-24T08:19:30 WARNING SW-LAB-01 event_id=LAB-0079 interface Gi1/0/8 flapping transitions=6 window_seconds=120
+2026-10-24T08:19:45 INFO MON-LAB-01 event_id=LAB-0080 health check passed status=normal
+2026-10-24T08:20:00 INFO SW-LAB-01 event_id=LAB-0081 interface Gi1/0/1 up; link established speed=1000Mbps
+2026-10-24T08:20:15 INFO FW-LAB-01 event_id=LAB-0082 connection allowed src=10.10.10.25 dst=192.0.2.10 dst_port=443 protocol=TCP
+2026-10-24T08:20:30 WARNING AUTH-LAB-01 event_id=LAB-0083 failed login user=admin src=198.51.100.25 reason=invalid_password
+2026-10-24T08:20:45 WARNING FW-LAB-01 event_id=LAB-0084 connection denied src=203.0.113.45 dst=10.10.10.20 dst_port=3389 protocol=TCP
+2026-10-24T08:21:00 ERROR SW-LAB-01 event_id=LAB-0085 interface down port=Gi1/0/8 reason=link_failure
+2026-10-24T08:21:15 WARNING AUTH-LAB-01 event_id=LAB-0086 authentication failure user=backupsvc src=10.10.10.50 reason=expired_password
+2026-10-24T08:21:30 INFO AUTH-LAB-01 event_id=LAB-0087 login successful user=analyst src=10.10.10.25
+2026-10-24T08:21:45 CRITICAL IDS-LAB-01 event_id=LAB-0088 port scan detected src=203.0.113.45 dst=10.10.10.20 ports=22,80,443,3389
+2026-10-24T08:22:00 WARNING SW-LAB-01 event_id=LAB-0089 high CPU utilization value=91 percent
+2026-10-24T08:22:15 INFO DNS-LAB-01 event_id=LAB-0090 DNS query resolved client=10.10.10.25 name=portal.example.com address=192.0.2.10
+2026-10-24T08:22:30 ERROR VPN-LAB-01 event_id=LAB-0091 VPN connection timeout user=remoteuser src=198.51.100.70
+2026-10-24T08:22:45 INFO BACKUP-LAB-01 event_id=LAB-0092 backup completed status=success duration_seconds=120
+2026-10-24T08:23:00 WARNING AUTH-LAB-01 event_id=LAB-0093 FAILED LOGIN user=testuser src=198.51.100.30 reason=invalid_password
+2026-10-24T08:23:15 INFO SW-LAB-01 event_id=LAB-0094 configuration changed user=netadmin src=10.10.10.25 ticket=LAB-1042
+2026-10-24T08:23:30 WARNING IDS-LAB-01 event_id=LAB-0095 repeated failed login attempts src=198.51.100.25 count=5 window_seconds=60
+2026-10-24T08:23:45 INFO FW-LAB-01 event_id=LAB-0096 connection denied counter reset by administrator; no new blocked traffic
+2026-10-24T08:24:00 ERROR APP-LAB-01 event_id=LAB-0097 disk space low volume=D free_percent=8
+2026-10-24T08:24:15 INFO NTP-LAB-01 event_id=LAB-0098 time synchronization successful server=10.10.10.5
+2026-10-24T08:24:30 WARNING SW-LAB-01 event_id=LAB-0099 interface Gi1/0/8 flapping transitions=6 window_seconds=120
+2026-10-24T08:24:45 INFO MON-LAB-01 event_id=LAB-0100 health check passed status=normal
+2026-10-24T08:25:00 INFO SW-LAB-01 event_id=LAB-0101 interface Gi1/0/1 up; link established speed=1000Mbps
+2026-10-24T08:25:15 INFO FW-LAB-01 event_id=LAB-0102 connection allowed src=10.10.10.25 dst=192.0.2.10 dst_port=443 protocol=TCP
+2026-10-24T08:25:30 WARNING AUTH-LAB-01 event_id=LAB-0103 failed login user=admin src=198.51.100.25 reason=invalid_password
+2026-10-24T08:25:45 WARNING FW-LAB-01 event_id=LAB-0104 connection denied src=203.0.113.45 dst=10.10.10.20 dst_port=3389 protocol=TCP
+2026-10-24T08:26:00 ERROR SW-LAB-01 event_id=LAB-0105 interface down port=Gi1/0/8 reason=link_failure
+2026-10-24T08:26:15 WARNING AUTH-LAB-01 event_id=LAB-0106 authentication failure user=backupsvc src=10.10.10.50 reason=expired_password
+2026-10-24T08:26:30 INFO AUTH-LAB-01 event_id=LAB-0107 login successful user=analyst src=10.10.10.25
+2026-10-24T08:26:45 CRITICAL IDS-LAB-01 event_id=LAB-0108 port scan detected src=203.0.113.45 dst=10.10.10.20 ports=22,80,443,3389
+2026-10-24T08:27:00 WARNING SW-LAB-01 event_id=LAB-0109 high CPU utilization value=91 percent
+2026-10-24T08:27:15 INFO DNS-LAB-01 event_id=LAB-0110 DNS query resolved client=10.10.10.25 name=portal.example.com address=192.0.2.10
+2026-10-24T08:27:30 ERROR VPN-LAB-01 event_id=LAB-0111 VPN connection timeout user=remoteuser src=198.51.100.70
+2026-10-24T08:27:45 INFO BACKUP-LAB-01 event_id=LAB-0112 backup completed status=success duration_seconds=120
+2026-10-24T08:28:00 WARNING AUTH-LAB-01 event_id=LAB-0113 FAILED LOGIN user=testuser src=198.51.100.30 reason=invalid_password
+2026-10-24T08:28:15 INFO SW-LAB-01 event_id=LAB-0114 configuration changed user=netadmin src=10.10.10.25 ticket=LAB-1042
+2026-10-24T08:28:30 WARNING IDS-LAB-01 event_id=LAB-0115 repeated failed login attempts src=198.51.100.25 count=5 window_seconds=60
+2026-10-24T08:28:45 INFO FW-LAB-01 event_id=LAB-0116 connection denied counter reset by administrator; no new blocked traffic
+2026-10-24T08:29:00 ERROR APP-LAB-01 event_id=LAB-0117 disk space low volume=D free_percent=8
+2026-10-24T08:29:15 INFO NTP-LAB-01 event_id=LAB-0118 time synchronization successful server=10.10.10.5
+2026-10-24T08:29:30 WARNING SW-LAB-01 event_id=LAB-0119 interface Gi1/0/8 flapping transitions=6 window_seconds=120
+2026-10-24T08:29:45 INFO MON-LAB-01 event_id=LAB-0120 health check passed status=normal
